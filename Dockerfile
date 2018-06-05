@@ -9,8 +9,10 @@ USER root
 RUN apk update && \
     apk upgrade && \
     apk add \
+      python3 \
       unzip \
       wget && \
+    ln -s /usr/bin/python3 /usr/bin/python && \
     cd /tmp && \
     wget -O gradle-${GRADLE_VERSION}-bin.zip https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip && \
     mkdir -p /opt/gradle && \
