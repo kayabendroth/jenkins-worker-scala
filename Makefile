@@ -2,7 +2,7 @@
 
 
 DOCKER_IMAGE_NAME=kayabendroth/jenkins-worker-scala
-DOCKER_IMAGE_TAG=20180605
+DOCKER_IMAGE_TAG=20180626
 
 image:
 	docker image build -f Dockerfile -t $(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_TAG) .
