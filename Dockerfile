@@ -2,7 +2,7 @@ FROM jenkins/jnlp-slave:3.26-1-alpine
 
 
 ENV GRADLE_VERSION=4.10.2 \
-    SCALA_VERSION=2.12.6
+    SCALA_VERSION=2.12.7
 
 USER root
 
