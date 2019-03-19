@@ -1,1 +1,5 @@
-\.DS_Store
+# macOS file maintained by Finder.
+**/\.DS_Store
+
+# Vim swap files.
+**/*\.swp
